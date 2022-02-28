@@ -31,19 +31,8 @@
 
 ##### **ПРИМЕЧАНИЕ:**
 
-1. Для запуска приложения использовать **WellApp-jar-with-dependencies.jar**
-jar файл находится в **(WellApp\target\WellApp-jar-with-dependencies.jar)**
-
-2. Рабочая база данных с заранее созданными в ней всеми таблицами и данными 
+1. Рабочая база данных с заранее созданными в ней всеми таблицами и данными 
 называется **test.db** и лежит в **(src\main\resources\test.db)**
 
-3. Для всех тестов создана тестовая база данных которая называется **databaseForTest.db** 
+2. Для всех тестов создана тестовая база данных которая называется **databaseForTest.db** 
 и лежит она в **(src\test\resources\databaseForTest.db)**
-
-4. XML файл когда создается называется **xmlFile** и сохранятся по умолчанию
-в рутовую директорию проекта (Пример: **C:\workspace\WellApp\xmlFile.xml**)
-Путь при этом прописан в константе класса 
-**src\main\java\dev\yudin\data\XMLReporter.java**
-
-Репозиторий на гитхабе:
-**DennisYudin/WellApp**
